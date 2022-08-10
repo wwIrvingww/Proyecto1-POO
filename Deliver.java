@@ -19,6 +19,8 @@ public class Deliver extends Actor
         
     }
     
+    //Funcion para que el personaje se mueva en base a la flecha que apache el 
+    //usuario.
     public void Move(){
         if (Greenfoot.isKeyDown("right")){
             setLocation(getX()+1,getY());     

@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class order here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Irving Acosta
+ * 1
  */
 public class order extends Actor
 {
