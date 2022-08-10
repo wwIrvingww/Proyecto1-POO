@@ -1,0 +1,40 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\greenfoot.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\bluejcore.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\bluejeditor.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\bluejext2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-jupiter-5.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-jupiter-api-5.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-jupiter-engine-5.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-jupiter-migrationsupport-5.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-jupiter-params-5.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-commons-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-console-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-console-standalone-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-engine-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-launcher-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-reporting-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-runner-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-suite-api-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-platform-testkit-1.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-quickcheck-core-0.9.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\junit-vintage-engine-5.5.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\hamcrest-core-1.3.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\bluej.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\classgraph-4.8.90.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\diffutils-1.2.1.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\commons-logging-api-1.1.2.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\jl1.0.1.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\opencsv-2.3.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\xom-1.3.7.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\lang-stride.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\nsmenufx-2.1.8.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\wellbehavedfx-0.3.3.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\guava-17.0.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\httpclient-4.1.1.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\httpcore-4.1.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\httpmime-4.1.1.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.base.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.controls.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.fxml.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.graphics.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.media.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.properties.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.swing.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\lib\javafx\lib\javafx.web.jar;C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego
+-d
+C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\Deliver.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\Deliver.java...
+Constructing Javadoc information...
+warning: unknown enum constant Tag.Any
+  reason: class file for threadchecker.Tag not found
+warning: unknown enum constant Tag.Any
+Standard Doclet version 11.0.14.1
+Building tree for all the packages and classes...
+Generating C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc\Deliver.html...
+Generating C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc\package-summary.html...
+Generating C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc\allclasses.html...
+Generating C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc\allclasses.html...
+Generating C:\Users\USUARIO\OneDrive\UVG\Clases\Segundo semestre\POO\Juego\doc\index.html...
+2 warnings
