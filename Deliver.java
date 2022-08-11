@@ -39,6 +39,7 @@ public class Deliver extends Actor
         }
     }
     
+    //Función para que las ordenes desaparezcan cuando el delivery las toca
     public void Eat(){
         if (isTouching(order.class)){
             removeTouching(order.class); 
