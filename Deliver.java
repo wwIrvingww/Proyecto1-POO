@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Deliver extends Actor
 {
+    ciudad thisGame;
     /**
      * Act - do whatever the Deliver wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -23,19 +24,19 @@ public class Deliver extends Actor
     //usuario.
     public void Move(){
         if (Greenfoot.isKeyDown("right")){
-            setLocation(getX()+1,getY());     
+            setLocation(getX()+4,getY());     
         }
         
         if (Greenfoot.isKeyDown("down")){
-            setLocation(getX(),getY()+1);
+            setLocation(getX(),getY()+4);
         }
         
         if (Greenfoot.isKeyDown("left")){
-            setLocation(getX()-1,getY());
+            setLocation(getX()-4,getY());
         }
         
         if (Greenfoot.isKeyDown("up")){
-            setLocation(getX(),getY()-1);
+            setLocation(getX(),getY()-4);
         }
     }
     
@@ -43,8 +44,8 @@ public class Deliver extends Actor
     public void Eat(){
         if (isTouching(order.class)){
             removeTouching(order.class); 
+            thisGame.score++;
         }
-    }
-        
+    }       
 }
 
