@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Deliver extends Actor
 {
-    ciudad thisGame;
+    ciudad thisGame; //Se llama a la clase "ciudad" para usar uno de sus atributos 
     /**
      * Act - do whatever the Deliver wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -17,12 +17,12 @@ public class Deliver extends Actor
     {   
         Move();
         Eat();
-        
     }
     
+    public void Move()
     //Funcion para que el personaje se mueva en base a la flecha que apache el 
     //usuario.
-    public void Move(){
+    {   
         if (Greenfoot.isKeyDown("right")){
             setLocation(getX()+4,getY());     
         }
@@ -39,9 +39,11 @@ public class Deliver extends Actor
             setLocation(getX(),getY()-4);
         }
     }
-    
-    //Función para que las ordenes desaparezcan cuando el delivery las toca
-    public void Eat(){
+      
+    public void Eat()
+    //Función para que las ordenes desaparezcan cuando el delivery las toca.
+    //También incrementa el contador "score" cada vez que este toca una orden
+    {
         if (isTouching(order.class)){
             removeTouching(order.class); 
             thisGame.score++;

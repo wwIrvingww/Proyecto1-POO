@@ -25,6 +25,7 @@ public class ciudad extends World
      * That is: create the initial objects and add them to the world.
      */
     private void prepare()
+    //Agrega las orders iniciales, los rivales y al protagonista
     {
         order order = new order();
         addObject(order,151,399);
@@ -46,6 +47,8 @@ public class ciudad extends World
         addObject(rival3,Greenfoot.getRandomNumber(700)-0,Greenfoot.getRandomNumber(700)-0);        
     }
     public void act()
+    //Muestra la puntuación, y el tiempo. Cuando este llega a 0 se detiene 
+    //Cada 200 ciclos aparecen nuevas orders en lugares aleatorios 
     {
         showText("Score: " + score, 50, 30);
         showText("Time: " + timer, 50, 50);

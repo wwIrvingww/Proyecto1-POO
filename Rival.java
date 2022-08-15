@@ -17,9 +17,10 @@ public class Rival extends Actor
         mover();
         Eat();
     }
-    
+       
+    public void mover()
     //Funcion que genera movimiento aleatorio para el rival
-    public void mover(){
+    {
         move(6);
         if (Greenfoot.getRandomNumber(100)<10)
         {
@@ -30,9 +31,11 @@ public class Rival extends Actor
             turn(Greenfoot.getRandomNumber(80)-40);
         }
     }
-    //Funcion que hace que si el rival toca la order, 
-    //desaparezca
-       public void Eat(){
+
+       public void Eat()
+        //Funcion que hace que si el rival toca la order, 
+        //desaparezca
+       {
         if (isTouching(order.class)){
             removeTouching(order.class); 
         }

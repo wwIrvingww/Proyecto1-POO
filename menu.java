@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;  
 
 /**
  * Write a description of class menu here.
@@ -19,14 +19,16 @@ public class menu extends World
        //Crea el mundo 
         super(900, 700, 1); 
         prepararMundo();
-        //moveArrow();
     }
 
-    private void prepararMundo(){ 
+    private void prepararMundo()
+    //Agrega la flecha en un lugar predeterminado 
+    { 
         addObject(arrow,300,290);    
     }
     
     public void act(){
+        //Hace que la flecha se mueva en base a la tecla que presione el usuario 
         if (Greenfoot.isKeyDown("up") &&  opcion!=0) 
         {
             opcion++;
